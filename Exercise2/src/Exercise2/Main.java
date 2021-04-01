@@ -1,45 +1,56 @@
 package Exercise2;
 
 public class Main {
-
+	
 	public static void main(String[] args) {
-		ClassComputer a = new ClassComputer();
-		System.out.println("Brand: " + a.brand);
-		System.out.println("Model: " + a.model);
-		System.out.println("Color: " + a.color);
-		System.out.println("Core: " + a.core);
+		Computer Lenovo = new Computer();
+		Lenovo.brand = "Lenovo";
+		Lenovo.model = "Legion 5i 15";
+		Lenovo.color = "Black";
+		Lenovo.core = "Intel i7";
+		System.out.println("Brand: "+ Lenovo.brand);
+		System.out.println("Model: " + Lenovo.model);
+		System.out.println("Color: " + Lenovo.color);
+		System.out.println("Core: " + Lenovo.core);
 		System.out.println("Method of computer: ");
-		a.printA();
-		a.printB();
-		a.printC();
-		a.printD();
+		Lenovo.printExecute();
+		Lenovo.printSearch();
+		Lenovo.printOperating();
+		Lenovo.printData();
 		
-		System.out.println();
+		System.out.println("========================================");
 		
-		ClassComputer2 b = new ClassComputer2();
-		System.out.println("Brand: " + b.brand);
-		System.out.println("Model: " + b.model);
-		System.out.println("Color: " + b.color);
-		System.out.println("Core: " + b.core);
+		Computer Hp = new Computer();
+		Hp.brand = "Hp";
+		Hp.model = "15s-du2131TU5";
+		Hp.color = "Silver";
+		Hp.core = "Intel i3";
+		System.out.println("Brand: " + Hp.brand);
+		System.out.println("Model: " + Hp.model);
+		System.out.println("Color: " + Hp.color);
+		System.out.println("Core: " + Hp.core);
 		System.out.println("Method of computer: ");
-		b.printA();
-		b.printB();
-		b.printC();
-		b.printD();
+		Hp.printExecute();
+		Hp.printSearch();
+		Hp.printOperating();
+		Hp.printData();
 		
-		System.out.println();
+		System.out.println("========================================");
 		
-		ClassComputer3 c = new ClassComputer3();
-		System.out.println("Brand: " + c.brand);
-		System.out.println("Model: " + c.model);
-		System.out.println("Color: " + c.color);
-		System.out.println("Core: " + c.core);
+		Computer Asus = new Computer();
+		Asus.brand = "Asus";
+		Asus.model = "ROG Strix G15";
+		Asus.color = "Glacier Blue";
+		Asus.core = "Intel i5";
+		System.out.println("Brand: "+Asus.brand);
+		System.out.println("Model: " + Asus.model);
+		System.out.println("Color: " + Asus.color);
+		System.out.println("Core: " + Asus.core);
 		System.out.println("Method of computer: ");
-		c.printA();
-		c.printB();
-		c.printC();
-		c.printD();
-		
+		Asus.printExecute();
+		Asus.printSearch();
+		Asus.printOperating();
+		Asus.printData();
 		
 }
 }
