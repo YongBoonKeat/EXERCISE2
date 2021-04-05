@@ -31,6 +31,7 @@ public class Computer {
 		System.out.println("Total unit: " + quantity);
 		System.out.println("Total weight: RM" + TW +"kg");
 	}
+	
 	void OperatingSystem(double OP1, double OP2) {
 		System.out.println("Speed of operating system is " + OP1 +"GHZ to " + OP2 +"GHZ");
 	}
