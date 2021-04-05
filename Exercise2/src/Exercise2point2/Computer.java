@@ -18,15 +18,18 @@ public class Computer {
 		System.out.println("Ram: " + r + "gb");
 	}
 	
-	void calculateprice(int p, int quantity) {
+	void CalPrice(int p, int quantity) {
 		int TP = p*quantity; 
 		System.out.println("Price per unit: RM" + p);
 		System.out.println("Total unit: " + quantity);
 		System.out.println("Total price: RM" + TP);
 	}
 	
-	void Search(String n) {
-		System.out.println(n + " computer can search information");
+	void CalWeight(double w, int quantity) {
+		double TW = w*quantity; 
+		System.out.println("Weight per unit: " + w + "Kg");
+		System.out.println("Total unit: " + quantity);
+		System.out.println("Total Weight: " + TW + "Kg");
 	}
 	
 	void OperatingSystem(String n,double OP1, double OP2) {
