@@ -25,15 +25,13 @@ public class Computer {
 		System.out.println("Total price: RM" + TP);
 	}
 	
-	void weight(double w, int quantity) {
-		double TW = w*quantity;
-		System.out.println("Weight per unit: " + w + "kg");
-		System.out.println("Total unit: " + quantity);
-		System.out.println("Total weight: RM" + TW +"kg");
+	void Search(String n) {
+		System.out.println(n + " computer can search information");
 	}
 	
-	void OperatingSystem(double OP1, double OP2) {
-		System.out.println("Speed of operating system is " + OP1 +"GHZ to " + OP2 +"GHZ");
+	void OperatingSystem(String n,double OP1, double OP2) {
+		System.out.println(n + " computer can operating system software");
+		System.out.println("Speed of operating system of " + n + " computer is "+ OP1 +"GHZ to " + OP2 +"GHZ");
 	}
 	
 }
