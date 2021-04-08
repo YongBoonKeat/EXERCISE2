@@ -32,9 +32,9 @@ public class Computer {
 		System.out.println("Total Weight: " + TW + "Kg");
 	}
 	
-	void OperatingSystem(String n,double OP1, double OP2) {
+	void OperatingSystem(String n,double OP1) {
+		double speedOP = OP1*2;
 		System.out.println(n + " computer can operating system software");
-		System.out.println("Speed of operating system of " + n + " computer is "+ OP1 +"GHZ to " + OP2 +"GHZ");
+		System.out.println("Speed of operating system of " + n + " computer is "+ OP1 +"GHZ to " + speedOP +"GHZ");
 	}
-	
 }
