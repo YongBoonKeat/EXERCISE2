@@ -5,8 +5,10 @@ public class Computer {
 	String model;
 	String color;
 	String core;
-	int price;
 	int ram;
+	double price;
+	double discount;
+	double totalprice;
 	
 	//Print specification
 	void printSpec(String b, String m, String c, String core,int p,int r) {
@@ -18,23 +20,25 @@ public class Computer {
 		System.out.println("Ram: " + r + "gb");
 	}
 	
-	void CalPrice(int p, int quantity) {
-		int TP = p*quantity; 
+	void CalPrice(double p, int quantity,int d) {
+		price = p*quantity; 
+		discount=(price*d/100);
+		totalprice= price-discount;
 		System.out.println("Price per unit: RM" + p);
 		System.out.println("Total unit: " + quantity);
-		System.out.println("Total price: RM" + TP);
+		System.out.println("Discount: " + d + "%");
+		System.out.println("Total price after discount: RM" + totalprice);
 	}
-	
-	void CalWeight(double w, int quantity) {
-		double TW = w*quantity; 
-		System.out.println("Weight per unit: " + w + "Kg");
-		System.out.println("Total unit: " + quantity);
-		System.out.println("Total Weight: " + TW + "Kg");
+	void CalBalance(double py) {	
+		double balance= py-totalprice;
+		System.out.println("Payment: RM "+ py);
+		System.out.println("Balance: RM "+ balance);
 	}
+
 	
-	void OperatingSystem(String n,double OP1) {
-		double speedOP = OP1*2;
-		System.out.println(n + " computer can operating system software");
-		System.out.println("Speed of operating system of " + n + " computer is "+ OP1 +"GHZ to " + speedOP +"GHZ");
+	
+	void screen(double width,double height) {
+		double screenarea = width*height;
+		System.out.println("Screen area of computer is "+ screenarea + "''");
 	}
 }

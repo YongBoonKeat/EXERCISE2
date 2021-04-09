@@ -10,30 +10,30 @@ public class Main {
 
 		System.out.println("LENOVO COMPUTER SPECIFICATION");
 		Lenovo.printSpec("Lenovo","Legion 5i 15","Black","Intel i7",4200,16);
-		Lenovo.CalPrice(4200,1);
-		Lenovo.CalWeight(2.5,1);
-		Lenovo.OperatingSystem("Lenovo Legion 5i 15",2.6);
+		Lenovo.CalPrice(4200,1,2);
+		Lenovo.CalBalance(4500);
+		Lenovo.screen(13.60, 7.60);
 		System.out.println("===================================================");
 		
 		System.out.println("HP COMPUTER SPECIFICATION");
 		HP.printSpec("HP","15s-du2131TU5","Silver","Intel i3",2100,8);
-		HP.CalPrice(2100,2);
-		HP.CalWeight(2.6,2);
-		HP.OperatingSystem("HP 15s-du2131TU5",2.1);
+		HP.CalPrice(2100,2,3);
+		HP.CalBalance(5000);		
+		HP.screen(13.60, 7.60);
 		System.out.println("===================================================");
 		
 		System.out.println("ASUS COMPUTER SPECIFICATION");
-		Asus.printSpec("Asus","ROG Strix G15","Glacier Blue","Intel i5",3799,16);
-		Asus.CalPrice(3799,1);
-		Asus.CalWeight(2.3,1);
-		Asus.OperatingSystem("Asus ROG Strix G15",2.5);
+		Asus.printSpec("Asus","ROG Strix G15","Glacier Blue","Intel i5",3800,16);
+		Asus.CalPrice(3800,1,2);
+		Asus.CalBalance(4000);		
+		Asus.screen(13.60, 7.60);
 		System.out.println("===================================================");
 		
 		System.out.println("ACER COMPUTER SPECIFICATION");
-		Acer.printSpec("Acer","Swift 5","Gray","Intel i5",3399,8);
-		Acer.CalPrice(3399,2);
-		Acer.CalWeight(2.4,2);
-		Acer.OperatingSystem("Acer Swift 5",2.4);
+		Acer.printSpec("Acer","Swift 5","Gray","Intel i5",3300,8);
+		Acer.CalPrice(3300,2,2);
+		Acer.CalBalance(8000);		
+		HP.screen(12.1, 6.90);
 		System.out.println("===================================================");
 	}
 
