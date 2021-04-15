@@ -11,11 +11,13 @@ public class Main {
 		Samsung.setColor();
 		Samsung.setWeight();
 		Samsung.setRam();
+		Samsung.setOp();
 		
 		System.out.println("Brand : " + Samsung.getBrand());
 		System.out.println("Color: " + Samsung.getColor());
 		System.out.println("Weight : " + Samsung.getWeight() + "kg");
 		System.out.println("Ram : " + Samsung.getRam() + "gb");
+		System.out.println("Operating System : " + Samsung.getOp());
 	}
 }
 

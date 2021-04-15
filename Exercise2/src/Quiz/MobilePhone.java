@@ -8,23 +8,30 @@ public class MobilePhone {
 	String color;
 	double weight;
 	int ram;
+	String op;
 	
 	 public void setBrand () {
-		 	System.out.println("Enter brand: ");
+		 	System.out.print("Enter brand: ");
 		 	this.brand = in.nextLine();
 		  }
 		  
 		  public void setColor() {
-			  System.out.println("Enter brand: ");
+			  System.out.print("Enter color: ");
 			  this.color = in.nextLine();
 		  }
 		  
 		  public void setWeight() {
+			  System.out.print("Enter weight: ");
 			  this.weight = in.nextDouble();
 		  }
 		  
 		  public void setRam() {
+			  System.out.print("Enter ram: ");
 			  this.ram = in.nextInt();
+		  }
+		  public void setOp() {
+			  System.out.print("Enter Operating System: ");
+			  this.op = in.nextLine();
 		  }
 //Getter 
 		  public String getBrand() {
@@ -40,5 +47,8 @@ public class MobilePhone {
 		  }
 		  public int getRam() {
 			  return this.ram;
+		  }
+		  public String getOp() {
+			  return this.op;
 		  }
 }
