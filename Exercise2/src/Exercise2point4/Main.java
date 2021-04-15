@@ -10,7 +10,7 @@ public class Main {
 		Honda.setSpeed(65);
 		Honda.setWeight(94);
 		Honda.setfuelTankCapacity(4.0);
-		Honda.setSeat(2);
+		Honda.setSeat(1);
 		Honda.setWheel(2);
 		
 		System.out.println("Brand : " + Honda.getBrand());

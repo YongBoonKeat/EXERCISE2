@@ -35,8 +35,6 @@ public class Computer {
 		System.out.println("Balance: RM "+ balance);
 	}
 
-	
-	
 	void screen(double width,double height) {
 		double screenarea = width*height;
 		System.out.println("Screen area of computer is "+ screenarea + "''");

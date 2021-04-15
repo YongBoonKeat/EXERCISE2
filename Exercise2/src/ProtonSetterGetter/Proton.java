@@ -1,11 +1,11 @@
-package HondaSetterGetter;
+package ProtonSetterGetter;
 
-public class Honda {
+public class Proton {
 	String brand;
 	String color;
-	int topSpeed;
+	int maxSpeed;
 	double weight;
-	double fuelTankCapacity;
+	double bootspace;
 	  
 	 // Create Setter Method
 	  public void setBrand(String brand) {
@@ -16,19 +16,23 @@ public class Honda {
 		    this.color = color;
 	  }
 	  
-	  public void setSpeed(int topSpeed) {
-	    this.topSpeed = topSpeed;
+	  public void setSpeed(int maxSpeed) {
+	    this.maxSpeed = maxSpeed;
 	  }
 	  
 	  public void setWeight(double weight) {
 		  this.weight = weight;
 	  }
 	  
-	  public void setfuelTankCapacity(double fuelTankCapacity) {
-		  this.fuelTankCapacity = fuelTankCapacity;
+	  public void setBootSpace(double bootspace) {
+		  this.bootspace = bootspace;
 	  }
 
 	  // Create Getter Method
+	  public Integer getSpeed() {
+		  return this.maxSpeed;
+	  }
+	  
 	  public String getBrand() {
 		  return this.brand;
 	  }
@@ -37,14 +41,16 @@ public class Honda {
 	 	  return this.color;
  	  }
 	  
-	  public Integer getSpeed() {
-		  return this.topSpeed;
-	  }
-	  
 	  public double getWeight() {
 		  return this.weight;
 	  }
-	  public double getfuelTankCapacity() {
-		  return this.fuelTankCapacity;
+	  
+	  public double getBootSpace() {
+		  return this.bootspace;
 	  }
+	  
+	// Create a fullThrottle() method
+	public void fullThrottle() {
+		System.out.println("The car is going as fast as it can!");
+	}
 }

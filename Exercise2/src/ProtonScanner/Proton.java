@@ -19,4 +19,5 @@ public class Proton {
 		System.out.println("The car brand is: " + b );
 		System.out.println("The car color is: " + c);
 	}
+	
 }
