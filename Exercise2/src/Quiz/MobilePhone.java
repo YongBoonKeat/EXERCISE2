@@ -9,6 +9,10 @@ public class MobilePhone {
 	double weight;
 	int ram;
 	String op;
+	double size;
+	int memory;
+	String call;
+ 
 	
 	 public void setBrand () {
 		 	System.out.print("Enter brand: ");
@@ -30,8 +34,20 @@ public class MobilePhone {
 			  this.ram = in.nextInt();
 		  }
 		  public void setOp() {
-			  System.out.print("Enter Operating System: ");
-			  this.op = in.nextLine();
+			  System.out.print("Enter operating System: ");
+			  this.op = in.next();
+		  }
+		  public void setSize() {
+			  System.out.print("Enter size: ");
+			  this.size = in.nextDouble();
+		  }
+		  public void setMemory() {
+			  System.out.print("Enter memory(gb): ");
+			  this.memory = in.nextInt();
+		  }
+		  public void setCall() {
+			  System.out.print("Enter number to call: ");
+			  this.call = in.next();
 		  }
 //Getter 
 		  public String getBrand() {
@@ -50,5 +66,14 @@ public class MobilePhone {
 		  }
 		  public String getOp() {
 			  return this.op;
+		  }
+		  public double getSize() {
+			  return this.size;
+		  }
+		  public int getMemory() {
+			  return this.memory;
+		  }
+		  public String getCall() {
+			  return this.call;
 		  }
 }
