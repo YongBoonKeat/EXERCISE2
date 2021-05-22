@@ -7,21 +7,19 @@ public class Computer {
 	String core;
 	
 	void printExecute() {
-		String a = "execute task";
-		System.out.println("Computer can "+a);
+		System.out.println("Computer can execute task");
 	}
 	
 	void printSearch() {
-		String b = "search information";
-		System.out.println("Computer can "+b);
+		System.out.println("Computer can search information");
 		
-	}void printOperating() {
-		String c = "operating system software";
-		System.out.println("Computer can "+c);
+	}
+	
+	void printOperating() {
+		System.out.println("Computer can operating system software");
 		
 	}void printData() {
-		String d = "data processing";
-		System.out.println("Computer use for "+d);
+		System.out.println("Computer can use for data processing");
 	
 	}
 }

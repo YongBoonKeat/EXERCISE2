@@ -18,7 +18,7 @@ public class Main {
 		Lenovo.printOperating();
 		Lenovo.printData();
 		
-		System.out.println("========================================");
+		System.out.println("=========================================");
 		
 		Computer Hp = new Computer();
 		Hp.brand = "Hp";
@@ -35,7 +35,7 @@ public class Main {
 		Hp.printOperating();
 		Hp.printData();
 		
-		System.out.println("========================================");
+		System.out.println("=========================================");
 		
 		Computer Asus = new Computer();
 		Asus.brand = "Asus";
